@@ -1,3 +1,4 @@
+//xrwvm-fullstack_developer_capstone/server/database/app.js
 const express = require('express');
 const mongoose = require('mongoose');
 const fs = require('fs');
@@ -40,9 +41,9 @@ mongoose.connect("mongodb://mongo_db:27017/", { dbName: 'dealershipsDB' })
   .catch(err => console.error("❌ MongoDB connection error:", err));
 
 
-const Reviews = require('./review');
+//const Reviews = require('./review');
 
-const Dealerships = require('./dealership');
+//const Dealerships = require('./dealership');
 
 try {
   Reviews.deleteMany({}).then(()=>{
