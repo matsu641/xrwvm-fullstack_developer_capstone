@@ -1,4 +1,4 @@
-//xrwvm-fullstack_developer_capstone/server/database/app.js
+/* jshint esversion: 8 */
 const express = require('express');
 const mongoose = require('mongoose');
 const fs = require('fs');
